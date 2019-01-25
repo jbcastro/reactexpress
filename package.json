@@ -1,0 +1,31 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "Boilerplate for React and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbcastro/reactexpress.git"
+  },
+  "keywords": [
+    "react",
+    "express"
+  ],
+  "author": "Joseph Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbcastro/reactexpress/issues"
+  },
+  "homepage": "https://github.com/jbcastro/reactexpress#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
